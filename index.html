@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Pia - Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body { margin: 0; font-family: Arial, sans-serif; }
+    .topbar {
+      background: #222; color: #fff; padding: 1em 2em;
+      display: flex; align-items: center; justify-content: space-between;
+    }
+    .topbar .logo { font-weight: bold; }
+    .topbar nav a {
+      color: #fff; margin-left: 2em; text-decoration: none;
+      transition: color 0.2s;
+    }
+    .topbar nav a:hover { color: #ffd700; }
+
+    .container { display: flex; min-height: 90vh; }
+    .sidebar {
+      background: #f4f4f4; width: 220px; padding: 2em 1em;
+      min-height: 100vh;
+    }
+    .sidebar h2 { font-size: 1.2em; margin-top: 0; }
+    .sidebar ul { list-style: none; padding: 0; }
+    .sidebar li { margin: 1em 0; }
+    .sidebar a { text-decoration: none; color: #222; }
+    .sidebar a:hover { color: #0077cc; }
+
+    .main-content { flex: 1; padding: 2em; }
+    @media (max-width: 800px) {
+      .container { flex-direction: column; }
+      .sidebar { width: 100%; min-height: auto; }
+    }
+  </style>
+</head>
+<body>
+  <div class="topbar">
+    <div class="logo">Your Name</div>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+  <div class="container">
+    <aside class="sidebar">
+      <h2>Sections</h2>
+      <ul>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </aside>
+    <main class="main-content">
+      <section id="about">
+        <h1>About Me</h1>
+        <p>Kia ora! I’m a Finance graduate with experience in a variety of administrative, project, and analytical tasks. I’m passionate about being efficient and am always looking for new opportunities to grow and learn.</p>
+      </section>
+      <section id="projects">
+        <h1>Projects</h1>
+        <ul>
+          <li>
+            <strong>Project 1</strong>: Description of your project. <a href="#">[GitHub]</a>
+          </li>
+          <li>
+            <strong>Project 2</strong>: Description of your project. <a href="#">[GitHub]</a>
+          </li>
+        </ul>
+      </section>
+      <section id="skills">
+        <h1>Skills</h1>
+        <ul>
+          <li>Data Analysis (Python, R, SQL)</li>
+          <li>Data Visualization (Tableau, PowerBI, matplotlib)</li>
+          <li>HTML, CSS, JavaScript</li>
+          <!--  Microsoft 365, Greentree, Qlikview, Donesafe, Data Analytics, Reporting, Administration -->
+        </ul>
+      </section>
+      <section id="contact">
+        <h1>Contact</h1>
+        <p>
+          Email: piagoldsmith02@gmail.com.com<br>
+          <a href="https://www.linkedin.com/in/yourprofile">LinkedIn</a>
+        </p>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
