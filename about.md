@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Home
-title: Experience
-title: Projects
-title: Contact
+title1: Home
+title2: Experience
+title3: Projects
+title4: Contact
 ---
