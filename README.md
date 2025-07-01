@@ -1,4 +1,4 @@
-## Welcome to my Portfolio
+# Welcome to my Portfolio
 
 Kia ora! I’m a Finance graduate with experience in a variety of administrative, project, and analytical tasks. I’m passionate about being efficient and am always looking for new opportunities to grow and learn.
 
