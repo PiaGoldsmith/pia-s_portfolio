@@ -6,7 +6,7 @@ Kia ora! I’m a Finance graduate with experience in a variety of administrative
 # My Education
 ## [University of Waikato](https://github.com/user-attachments/files/18858004/Academic.Record.pdf)
 **2020 – 2023**
-* Bachelor of Business, major in Finance (https://github.com/user-attachments/files/18858010/Certificate.pdf)
+* [Bachelor of Business, major in Finance](https://github.com/user-attachments/files/18858010/Certificate.pdf)
 
 ## Sunshine Coast Grammar School
 2017 – 2019
